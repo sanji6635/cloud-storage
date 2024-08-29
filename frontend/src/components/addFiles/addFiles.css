@@ -1,0 +1,25 @@
+.addFiles {
+  margin: 10px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.form-file {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.selectedFile {
+  height: 300px;
+  width: 300px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-style {
+  height: inherit;
+  width: inherit;
+}

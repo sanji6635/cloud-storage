@@ -1,0 +1,71 @@
+.profile {
+  height: 50px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.profile-dashboard {
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profile-dashboard h5 {
+  background-color: rgba(0, 0, 71, 0.9);
+  color: white;
+  padding: 4px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-dashboard h5:hover {
+  background-color: rgba(0, 0, 71, 1);
+  transform: scale(1.05);
+}
+
+.profile {
+  background: linear-gradient(270deg, #c2d6ff, #1a07b0);
+  background-size: 400% 400%;
+
+  -webkit-animation: gradientStyle 50s ease infinite;
+  -moz-animation: gradientStyle 50s ease infinite;
+  animation: gradientStyle 50s ease infinite;
+}
+
+@-webkit-keyframes gradientStyle {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes gradientStyle {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradientStyle {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,28 @@
+.cards {
+  height: 80vh;
+  width: 100%;
+  padding: 20px;
+  padding-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(0, 0, 71);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 71, 1) 0%,
+    rgba(19, 46, 195, 1) 0%,
+    rgba(128, 142, 221, 1) 56%,
+    rgba(251, 251, 251, 1) 100%,
+    rgba(205, 225, 255, 1) 100%
+  );
+}
+
+.price-cards {
+  height: 51vh;
+  width: 20vw;
+  padding-top: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  text-align: center;
+  line-height: 58px;
+}

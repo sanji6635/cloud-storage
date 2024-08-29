@@ -1,0 +1,39 @@
+.header{
+    height: 68vh;
+    width: 100%;
+    padding: 20px 80px;
+    background-color: rgba(0,0,71,0.959);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr) ;
+    gap: 20px;
+}
+
+.header-img img{
+    height: 180px;
+    width: 250px;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+.getStarted{
+    height: 180px;
+    width: 250px;
+    padding-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.header-hero{
+    height: 400px;
+    width: 500px;
+}

@@ -1,0 +1,20 @@
+.footer {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+  background: rgb(0, 0, 71);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 71, 1) 2%,
+    rgba(1, 1, 75, 1) 10%,
+    rgba(2, 4, 83, 1) 31%,
+    rgba(4, 9, 96, 1) 40%,
+    rgba(19, 46, 195, 1) 100%
+  );
+}

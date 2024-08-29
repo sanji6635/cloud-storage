@@ -1,0 +1,39 @@
+.hero {
+  height: 699px;
+  width: 100%;
+  padding: 80px;
+  background-color: rgba(251, 251, 251, 1) 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  background: linear-gradient(
+    180deg,
+    rgba(128, 142, 221, 1) 13%,
+    rgba(134, 147, 223, 1) 22%,
+    rgba(145, 157, 226, 1) 30%,
+    rgba(168, 178, 233, 1) 45%,
+    rgba(240, 242, 255, 1) 78%
+  );
+}
+
+.hero div {
+  height: 150px;
+  width: 520px;
+  border: 2px solid rgba(0, 0, 71, 100);
+  border-radius: 20px;
+  box-shadow: 0 0 30px 2px rgb(27, 27, 255);
+  display: grid;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero img {
+  height: 146px;
+  width: 196px;
+  border-radius: 18px;
+  background-size: cover;
+}
+#param2 {
+  place-self: start end;
+}
